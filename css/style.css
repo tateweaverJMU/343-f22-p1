@@ -1,0 +1,58 @@
+
+html {
+    background-color: rgb(97, 104, 209);
+    margin: 0;
+}
+
+header {
+    background-color: lightblue;
+    text-align: center;
+    height: 100px;
+    width: auto;
+    margin-top: 0%;
+    margin: 0%;
+}
+
+header img {
+    width: 300px;
+    height: 150px;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+
+    top: 75px;
+}
+
+.content {
+    position: relative;
+    margin: 10px;
+    margin-left: 210px;
+}
+
+@media screen and (min-width: 1200px) {
+    .side {
+        position: absolute;
+        width: 200px;
+        background-color: purple;
+        height: 100%;
+        bottom: 100px;
+    }
+    .sidelist {
+        list-style-type: none;
+    }
+}
+
+footer {
+    background-color: rgb(197, 192, 192);
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+    margin-top: auto;
+}
+
