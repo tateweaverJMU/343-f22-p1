@@ -44,36 +44,6 @@ header img {
     color: white;
   }
 
-#pagecontainer {
-    position: relative;
-    min-height: 100vh;
-}
-
-h1 h2 {
-    font-family: sans-serif;
-}
-
-#pagecontainer p {
-    padding-top: 100px;
-    font-size: large;
-    padding-right: 10px;
-    
-}
-
-#content {
-    margin: 50px;
-    text-align: center;
-    font-family: serif;
-}
-
-#indeximg img {
-    max-width: 500px;
-    max-height: 300px;
-    height: auto;
-    width: 100%;
-    float: left;
-    padding: 10px;
-}
 
 
 footer {
