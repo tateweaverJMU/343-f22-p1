@@ -1,21 +1,4 @@
-#pagecontainer {
-    position: relative;
-    min-height: 100vh;
-}
-
-h1 h2 {
-    font-family: 'Courier New', Courier, monospace;
-
-}
-
-#pagecontainer p {
-    padding-top: 100px;
-    font-size: large;
-    padding-right: 10px;
-    
-}
-
-#content {
+#list {
     display: grid;
     padding: 3rem;
     grid-template-columns: 50% 50%;
@@ -24,21 +7,19 @@ h1 h2 {
     margin: 0 auto;
     font: 500 100%/1.5 system-ui;
     align-items: center;
+  }
+
+img {
+    width: 700px;
+    height: auto;
+}
+
+h1 {
     text-align: center;
 }
-
-#indeximg img {
-    max-width: 700px;
-    max-height: auto;
-    height: auto;
-    width: 100%;
-    float: left;
-    padding: 10px;
-}
-
 /* for smaller screens requirement */
-@media (max-width: 650px) {
-    #content {
+@media (max-width: 1300px) {
+    #list {
       display: block;
       font-size: 80%;
     }

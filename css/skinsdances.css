@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+body {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* media queries */
+@media screen and (min-width: 1200px) {
+    .item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.eximg {
+    max-width: 50%;
+    max-width: 30%;
+    min-width: 30%;
+    float: right;
+    padding: 10px;
+}
+
+.text {
+    padding: 10px;
+    max-width: 900px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+iframe {
+    display: flex;
+    justify-content: flex-end;
+    width: 560px;
+    height: 315px;
+    padding: 10px;
+    border: 0;
+}
+
+.transition {
+    font-size: 100px;
+}
+
+

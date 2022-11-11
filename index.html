@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon -->
   <link rel="icon" type="image/x-icon" href="images/FS.jpg">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/indexStyle.css">
@@ -11,30 +12,35 @@
 
 </head>
 
-<header>
-  <div id="fortSiteLogo">
-    <img src="images/FortSite Logo.png" alt="FortSite Logo">
-    </div>
-</header>
+
 
 
 <body>
 
+  <!-- header -->
+  <header>
+    <div id="fortSiteLogo">
+      <img src="images/FortSiteLogo.png" alt="FortSite Logo">
+    </div>
+  </header>
+
   <div id="pagecontainer">
 
   <main>
-
+    <!--Nav Bar-->
     <div class="topnav">
-        <a href="index.html">Home</a></li>
-        <a href="history.html">History of Fortnite</a></li>
-        <a href="figures.html">Important Figures</a></li>
-        <a href="strategies.html"> Strategies</a></li>
-        <a href="skinsDances.html">Best Skins and Dances</a></li>
+        <a href="index.html">Home</a>
+        <a href="history.html">History of Fortnite</a>
+        <a href="figures.html">Important Figures</a>
+        <a href="strategies.html"> Strategies</a>
+        <a href="skinsDances.html">Best Skins and Dances</a>
     </div>
 
     <div id="content">
+      <div>
       <h1>Welcome to FortSite</h1>
       <h2>Your one stop for all things Fortnite</h2>
+      </div>
 
       <div id="indeximg">
         <img src="images/fort.jpg" alt="title screen">
@@ -44,7 +50,28 @@
         Take a look around our website to learn more about everything from it's history to 
         the best in-game skins and dances it has to offer!
       </p>
+
+
+      <!---Form requirement. This form does not do anything but in order to submit user must fill out form completely.-->
+      <form>
+
+        <p>Create an account!</p>
+
+
+        <label for="fname">Username:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname">Password:</label><br>
+        <input type="text" id="lname" name="lname" required>
+        <br>
+        <input type = "submit" >
+
+
+      </form>
+
     </div>
+
+    
+
 
   </main>
 
@@ -53,7 +80,8 @@
 
   <footer>
     <p><a href="index.html">Back To Top</a></p>
-    <a href="fortnite.com">Checkout the official Fortnite website!</a>
+    <!--External Link:-->  
+    <a href="https://www.epicgames.com/fortnite/en-US/home">Checkout the official Fortnite website!</a>
   </footer>
 
   
